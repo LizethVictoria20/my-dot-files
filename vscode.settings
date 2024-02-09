@@ -1,0 +1,62 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  // "workbench.colorTheme": "Quiet Light",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "Victor Mono, Inconsolata-dz, Menlo, monospace",
+  "editor.tokenColorCustomizations": {
+    "[Nako]": {
+      "comments": {
+        "fontStyle": "italic"
+      },
+      "types": {
+        "fontStyle": "italic"
+      },
+      "keywords": {
+        "fontStyle": "italic"
+      }
+    },
+    "[Nako Light]": {
+      "comments": {
+        "fontStyle": "italic"
+      },
+      "types": {
+        "fontStyle": "italic"
+      },
+      "keywords": {
+        "fontStyle": "italic"
+      }
+    },
+
+      "textMateRules": [
+        {
+          "name": "Tag brackets",
+          "scope": ["punctuation.definition.tag"],
+          "settings": {
+            "foreground": "#BBBBBB"
+          }
+        }
+      ]
+  },
+  "workbench.colorCustomizations": {
+      "editorLineNumber.foreground": "#9061d6",
+      "editorCursor.foreground": "#7a44a7"
+  },
+  "editor.cursorStyle": "block",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "workbench.colorTheme": "Noctis Azureus",
+
+
+
+  "window.newWindowDimensions": "maximized",
+  "editor.semanticHighlighting.enabled": false,
+  "git.enableCommitSigning": true,
+  "editor.minimap.enabled": true,
+  "explorer.confirmDelete": false,
+  // "editor.tabSize": 1,
+  "explorer.confirmDragAndDrop": false,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "editor.fontWeight": "normal",
+
+}
